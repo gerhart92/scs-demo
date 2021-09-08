@@ -1,0 +1,14 @@
+{
+  "endpoints": {
+    "default": {
+      "allowWrite": true,
+      "host": "https://scsdemo.sc",
+      "authority": "https://scsdemo.identityserver",
+      "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjBCOUQ4MDA2MzU2N0NFMDcyQjAzODI1RjMxOEU3MDZFMEE3OTM0OTUiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJDNTJBQmpWbnpnY3JBNEpmTVk1d2JncDVOSlUifQ.eyJuYmYiOjE2MzExMTcxNTMsImV4cCI6MTYzMTEyMDc1MywiaXNzIjoiaHR0cHM6Ly9zY3NkZW1vLmlkZW50aXR5c2VydmVyIiwiYXVkIjpbImh0dHBzOi8vc2NzZGVtby5pZGVudGl0eXNlcnZlci9yZXNvdXJjZXMiLCJzaXRlY29yZS5wcm9maWxlLmFwaSJdLCJjbGllbnRfaWQiOiJEZXZpY2UiLCJzdWIiOiIyNjc2MTEwYTZjYzY0NzlkYTc3Y2Y1MGM1Njg1ZjZhNyIsImF1dGhfdGltZSI6MTYzMTExNzE0OCwiaWRwIjoibG9jYWwiLCJuYW1lIjoic2l0ZWNvcmVcXEFkbWluIiwiZW1haWwiOiIiLCJodHRwOi8vd3d3LnNpdGVjb3JlLm5ldC9pZGVudGl0eS9jbGFpbXMvaXNBZG1pbiI6IlRydWUiLCJzY29wZSI6WyJzaXRlY29yZS5wcm9maWxlLmFwaSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.Aarwt3taXNubTJtuXe2KYo0pYT4NzFohG0O2dga7h6TKjLckBCnMqU-QTvyO7aEoOZmIjb8nYX62ZlHC043IgmTC-cT836QRMwb42XE_wyU4pk51fUukQWEyTdI18wPYMvJ6wD4uo5KhtUfhdnR8onaRFbFs3HeOOwjXuJoVjXQJdETgCYGvOmL2mVA2CE-GG6nIQ_6JnwxhJ6NNlXp7E8HX7UTFdzCk0uULahKhKM79t2peDeBJE2xlNO8GaoioZ2vsroOt0kq6SCteCuajrjWOPW8bEcP-xOnc--QWW908SH1SADnMwkd7QmLcRNsuftjWsyNZQ9EtTOk9aCQwlw",
+      "refreshToken": "f4e0a307e56c0188cd49406cdc6cc5f497a603a54cdd94ba2da24563d49b0d3a",
+      "clientId": "Device",
+      "variables": {}
+    }
+  },
+  "$schema": "./schemas/UserConfiguration.schema.json"
+}
