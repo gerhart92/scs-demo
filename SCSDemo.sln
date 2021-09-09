@@ -11,12 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{D567
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{1170CF0B-3A0D-496A-87F6-DC3C54B0D2A0}"
 	ProjectSection(SolutionItems) = preProject
-		src\Feature\Navigation\code\.modules\Feature.Navigation.module.json = src\Feature\Navigation\code\.modules\Feature.Navigation.module.json
+		src\Feature\Navigation\Feature.Navigation.module.json = src\Feature\Navigation\Feature.Navigation.module.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SCS", "SCS", "{B99BC742-4E56-4048-A593-89D632544360}"
 	ProjectSection(SolutionItems) = preProject
-		src\Project\SCSDemo\code\.modules\Project.SCSDemo.module.json = src\Project\SCSDemo\code\.modules\Project.SCSDemo.module.json
+		src\Project\SCSDemo\Project.SCSDemo.module.json = src\Project\SCSDemo\Project.SCSDemo.module.json
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Navigation", "src\Feature\Navigation\code\Sitecore.Feature.Navigation.csproj", "{EEDA31E9-58A3-448A-A3FC-F519ED051503}"
