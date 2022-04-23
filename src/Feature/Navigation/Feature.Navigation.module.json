@@ -1,26 +1,32 @@
 {
-	"namespace": "Sitecore.Feature.Navigation",
-	"items": {
-	   "includes": [
-			{
-				"name" : "master/sitecore/templates/Feature",
-				"path" : "/sitecore/templates/Feature/Navigation",
-				"scope": "ItemAndDescendants",
-				"allowedPushOperations": "CreateUpdateAndDelete"			
-				
-			},
-			{
-				"name" : "master/sitecore/layout/Renderings/Feature",
-				"path" : "/sitecore/layout/Renderings/Feature/Navigation",
-				"scope": "ItemAndDescendants",
-				"allowedPushOperations": "CreateUpdateAndDelete"
-			}
-		]
-	},
-	"leprechaun": {
-        "configuration": {
-            "@extends": "Sitecore.Foundation.ORM",
-            "@name": "Feature.Navigation"
-        }
-	}
+  "namespace": "Sitecore.Feature.Navigation",
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Navigation",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Navigation",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Settings.Footer",
+        "path": "/sitecore/content/SUGDE/Settings/Footer",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "Settings.Header",
+        "path": "/sitecore/content/SUGDE/Settings/Header",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateOnly"
+      }
+    ]
+  }
 }

@@ -1,0 +1,35 @@
+﻿---
+ID: "c500daa8-521d-4ae8-ae4e-12ca0a335859"
+Parent: "328807c4-73ed-4b99-b507-9c06e5137925"
+Template: "e62d079e-72d1-4d6f-80a4-65cae8b6fb1b"
+Path: /sitecore/content/SUGDE/Settings/Header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220423T190351Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "20e8458b-46bf-41a1-b78f-95b33f633b95"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220423T191105Z
+    - ID: "e7e26411-ebd0-4b1f-be31-60bf80273451"
+      Hint: Logo
+      Value: |
+        <image mediaid="{094AED03-02E7-4868-80CB-19926661FB77}" />

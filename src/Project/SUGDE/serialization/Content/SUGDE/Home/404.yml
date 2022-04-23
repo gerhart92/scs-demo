@@ -1,0 +1,30 @@
+﻿---
+ID: "951cdfff-723b-4326-9f6f-88481a9f3092"
+Parent: "7c268826-7581-41db-a62e-4ca5a7ac4a51"
+Template: "cef76628-c32e-41c8-b609-3d73ccd5473b"
+Path: /sitecore/content/SUGDE/Home/404
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/Warning.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220423T192258Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b153181-959f-4f0e-9203-c5d55afe2b97"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220423T192317Z
+    - ID: "f2034eec-c39a-4511-9f3c-c5fba7f689f4"
+      Hint: Title
+      Value: 404

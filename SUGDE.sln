@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{E9676517-E2B9-4819-BC8C-D35015DDCA13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{874A5463-52A3-49FD-8C5D-1732459E8468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{D5674477-5D4F-4084-956A-0A39E2FD2F9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{1170CF0B-3A0D-496A-87F6-DC3C54B0D2A0}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Navigation\Feature.Navigation.module.json = src\Feature\Navigation\Feature.Navigation.module.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SCS", "SCS", "{B99BC742-4E56-4048-A593-89D632544360}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\SUGDE\Project.SUGDE.module.json = src\Project\SUGDE\Project.SUGDE.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Navigation", "src\Feature\Navigation\code\Sitecore.Feature.Navigation.csproj", "{EEDA31E9-58A3-448A-A3FC-F519ED051503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E427D978-ED40-4876-A643-D1B16E536917}"
+	ProjectSection(SolutionItems) = preProject
+		sitecore.json = sitecore.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Project.SUGDE", "src\Project\SUGDE\code\Sitecore.Project.SUGDE.csproj", "{339842A1-D1F5-4C29-9A2A-71974661C3A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metadata", "Metadata", "{DAB479DE-7AAF-47FF-8B60-A633927339E6}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Metadata\Feature.Metadata.module.json = src\Feature\Metadata\Feature.Metadata.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Metadata", "src\Feature\Metadata\code\Sitecore.Feature.Metadata.csproj", "{780EA6B4-4085-46F0-ADED-C751BDC41CE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banner", "Banner", "{BE7DDC7E-8E61-4247-939B-185B4520AB9A}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Banner\Feature.Banner.module.json = src\Feature\Banner\Feature.Banner.module.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indexing", "Indexing", "{47CF3429-1B13-40E0-8F54-D544A399DCD7}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\Indexing\Foundation.Indexing.module.json = src\Foundation\Indexing\Foundation.Indexing.module.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEDA31E9-58A3-448A-A3FC-F519ED051503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDA31E9-58A3-448A-A3FC-F519ED051503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDA31E9-58A3-448A-A3FC-F519ED051503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDA31E9-58A3-448A-A3FC-F519ED051503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339842A1-D1F5-4C29-9A2A-71974661C3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339842A1-D1F5-4C29-9A2A-71974661C3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339842A1-D1F5-4C29-9A2A-71974661C3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339842A1-D1F5-4C29-9A2A-71974661C3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780EA6B4-4085-46F0-ADED-C751BDC41CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780EA6B4-4085-46F0-ADED-C751BDC41CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780EA6B4-4085-46F0-ADED-C751BDC41CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780EA6B4-4085-46F0-ADED-C751BDC41CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1170CF0B-3A0D-496A-87F6-DC3C54B0D2A0} = {E9676517-E2B9-4819-BC8C-D35015DDCA13}
+		{B99BC742-4E56-4048-A593-89D632544360} = {D5674477-5D4F-4084-956A-0A39E2FD2F9C}
+		{EEDA31E9-58A3-448A-A3FC-F519ED051503} = {1170CF0B-3A0D-496A-87F6-DC3C54B0D2A0}
+		{339842A1-D1F5-4C29-9A2A-71974661C3A1} = {B99BC742-4E56-4048-A593-89D632544360}
+		{DAB479DE-7AAF-47FF-8B60-A633927339E6} = {E9676517-E2B9-4819-BC8C-D35015DDCA13}
+		{780EA6B4-4085-46F0-ADED-C751BDC41CE1} = {DAB479DE-7AAF-47FF-8B60-A633927339E6}
+		{BE7DDC7E-8E61-4247-939B-185B4520AB9A} = {E9676517-E2B9-4819-BC8C-D35015DDCA13}
+		{47CF3429-1B13-40E0-8F54-D544A399DCD7} = {874A5463-52A3-49FD-8C5D-1732459E8468}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6822019A-56D3-4695-9B9E-96F9D10ECD75}
+	EndGlobalSection
+EndGlobal

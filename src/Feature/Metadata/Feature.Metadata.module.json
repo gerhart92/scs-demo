@@ -1,20 +1,13 @@
 {
-	"namespace": "Sitecore.Feature.Metadata",
-	"items": {
-	   "includes": [
-			{
-				"name" : "master/sitecore/templates/Feature",
-				"path" : "/sitecore/templates/Feature/Metadata",
-				"scope": "ItemAndDescendants",
-				"allowedPushOperations": "CreateUpdateAndDelete"			
-				
-			}
-		]
-	},
-	"leprechaun": {
-        "configuration": {
-            "@extends": "Sitecore.Foundation.ORM",
-            "@name": "Feature.Metadata"
-        }
-	}
+  "namespace": "Sitecore.Feature.Metadata",
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Metadata",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
 }

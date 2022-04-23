@@ -1,0 +1,11 @@
+{
+  "namespace": "Sitecore.Project.SUGDE.Roles",
+  "items": {
+  },
+  "roles":[
+	{
+		"domain": "extranet",
+		"pattern": "SUGDE*"
+	}
+  ]
+}

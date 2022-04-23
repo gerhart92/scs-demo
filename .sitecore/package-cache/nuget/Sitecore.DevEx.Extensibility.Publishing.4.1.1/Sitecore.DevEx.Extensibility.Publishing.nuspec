@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <language>en-US</language>
+    <projectUrl>http://doc.sitecore.net</projectUrl>
+    <iconUrl>https://mygetwwwsitecoreeu.blob.core.windows.net/feedicons/sc-packages.png</iconUrl>
+    <id>Sitecore.DevEx.Extensibility.Publishing</id>
+    <version>4.1.1</version>
+    <authors>Sitecore Corporation A/S.</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">Sitecore.Myget.Licence.md</license>
+    <icon>icon.png</icon>
+    <description>Package Description</description>
+    <copyright>© 2021 Sitecore Corporation A/S. All rights reserved. Sitecore® is a registered trademark of Sitecore Corporation A/S.</copyright>
+    <tags>Sitecore</tags>
+  </metadata>
+</package>

@@ -1,0 +1,50 @@
+{
+  "namespace": "Sitecore.Project.SUGDE",
+  "items": {
+    "includes": [
+      {
+        "name": "Layouts",
+        "path": "/sitecore/layout/Layouts/Project/SUGDE",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Project/SUGDE",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Project/SUGDE",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Content",
+        "path": "/sitecore/content/SUGDE",
+        "rules": [
+          {
+            "path": "/Home/404",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Home",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+		  {
+            "path": "/Settings",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "ignored"
+          }
+        ]
+      }
+    ]
+  }
+}
