@@ -7,6 +7,12 @@ SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Apps/32x32/Warehouse.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {AB36C5D3-040E-4B81-8FF8-2931E8A916FD}
+    {77347359-AD25-4609-B008-BF785D77E92F}
+    {CEF76628-C32E-41C8-B609-3D73CCD5473B}
 Languages:
 - Language: en
   Versions:
@@ -25,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6770bf82-3ce9-4a5d-8679-fedf7d342459"
+      Value: "81f25188-462e-44ba-b988-2db97f2ae098"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220423T190936Z
+      Value: 20220510T130320Z

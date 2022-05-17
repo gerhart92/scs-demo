@@ -24,6 +24,11 @@
         "name": "Content",
         "path": "/sitecore/content/SUGDE",
         "rules": [
+		  {
+            "path": "/Home/SUGDE",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          },
           {
             "path": "/Home/404",
             "scope": "SingleItem",
